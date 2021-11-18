@@ -68,6 +68,8 @@ public class TestyPrihlasovaniNaKurzy {
 
         Assertions.assertEquals("Nina Vomackova", najdiPrihlaseneDite(), "Nina neni prihlasena.");
 
+        odhlasUcastDiteteNaKurzu();
+
         odhlasPrihlasenehoUzivatele("Vaclav Vomacka");
     }
 
